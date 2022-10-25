@@ -1,0 +1,239 @@
+/* Змінні */
+:root {
+	--main-color: #f5f5f5;
+	--header-color: #ffffff;
+	--footer-color: #2f303a;
+	--action-color: #2196f3;
+	--font-main-color: #757575;
+	--font-submain-color: #212121;
+	--button-passive-color: #f5f4fa;
+}
+
+/*________________________ Глобальні стилі __________________*/
+body {
+	background-color: var(--header-color);
+	color: var(--font-main-color);
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+}
+
+/* __________________Утиліти_________________ */
+.list {
+	list-style: none;
+}
+
+.link {
+	text-decoration: none;
+}
+
+.title,
+.subtitle {
+	color: var(--font-submain-color);
+}
+
+.invisible {
+	visibility: hidden;
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+}
+
+/* _______________</p> font_______________ */
+
+/* Хедер */
+.header {
+	background-color: var(--header-color);
+}
+
+.logo {
+	color: #000000;
+	font-family: "Raleway";
+	font-weight: 700;
+	font-size: 26px;
+	line-height: calc(31/26);
+	letter-spacing: 0.03em;
+}
+
+.logo-name-web {
+	color: var(--action-color);
+}
+
+.current.link {
+	color: var(--action-color);
+}
+
+/* ___________________nav__________________ */
+.nav-list a {
+	color: var(--font-submain-color);
+	font-weight: 500;
+	line-height: calc(16/14);
+	letter-spacing: 0.02em;
+}
+
+.nav-list a:hover,
+.nav-list a:focus {
+	color: var(--action-color);
+}
+
+/* ____________contacts____________ */
+.contacts-list a {
+	color: var(--font-main-color);
+	font-weight: 500;
+	line-height: calc(16/14);
+	letter-spacing: 0.02em;
+}
+
+.contacts-list a:hover,
+.contacts-list a:focus {
+	color: var(--action-color);
+}
+
+/* Герой*/
+.hero,
+.footer {
+	background-color: var(--footer-color);
+}
+
+.hero-title {
+	color: var(--header-color);
+	font-weight: 900;
+	font-size: 44px;
+	line-height: calc(60/44);
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+}
+
+.hero-button {
+	color: var(--header-color);
+	background-color: var(--action-color);
+	border: none;
+	cursor: pointer;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: calc(30/16);
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+}
+
+.hero-button:hover,
+.hero-button:focus,
+.hero-button:active {
+	color: var(--header-color);
+	background-color: #188ce8;
+	border: none;
+	cursor: pointer;
+}
+
+
+/* -----------------------------main----------------------------- */
+
+.advences.subtitle {
+
+
+	line-height: calc(16/14);
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+
+.advences-list-item-p {
+
+	line-height: calc(24/14);
+	letter-spacing: 0.03em;
+}
+
+.our-team {
+	background-color: var(--button-passive-color)
+}
+
+.working.title,
+.our-team-title {
+
+	font-size: 36px;
+	line-height: calc(42/36);
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+.members-subtitle {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: calc(19/16);
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+.members-position {
+	font-size: 16px;
+	line-height: calc(19/16);
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+/* ________________Футер______________ */
+
+.footer a {
+	color: var(--header-color);
+}
+
+
+.address-list-item {
+	font-style: normal;
+	line-height: calc(24/14);
+	letter-spacing: 0.03em;
+
+}
+
+.adress-connect.link {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.adress-connect.link:active,
+.adress-connect.link:hover,
+.adress-connect.link:focus {
+	color: var(--action-color);
+}
+
+/* portfolio */
+
+button {
+	font-family: inherit;
+}
+
+.item-button {
+	color: var(--font-submain-color);
+	background-color: var(--button-passive-color);
+	border-radius: 4%;
+	cursor: pointer;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: calc(26/16);
+	text-align: center;
+	letter-spacing: 0.03em;
+	border-style: none;
+}
+
+.item-button:hover,
+.item-button:focus {
+	color: var(--header-color);
+	background-color: var(--action-color);
+	border-radius: 4%;
+}
+
+.exp.subtitle {
+
+	font-size: 18px;
+	line-height: calc(36/18);
+	letter-spacing: 0.06em;
+}
+
+.exp-p {
+	font-size: 16px;
+	line-height: calc(30/16);
+	letter-spacing: 0.03em;
+}
