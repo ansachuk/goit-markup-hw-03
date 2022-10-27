@@ -129,11 +129,11 @@ img {
 	align-items: center;
 }
 
-.nav-list{
-		display: flex;
-		flex-direction: row;
-		gap: 50px;
-		margin: 32px 0;
+.nav-list {
+	display: flex;
+	flex-direction: row;
+	gap: 50px;
+	margin: 32px 0;
 }
 
 .nav-list a {
@@ -151,7 +151,7 @@ img {
 
 /* ____________contacts____________ */
 
-.contacts-list{
+.contacts-list {
 	display: flex;
 	flex-direction: row;
 	gap: 50px;
@@ -231,7 +231,7 @@ img {
 
 .advences.subtitle {
 	margin-bottom: 8px;
-	
+
 
 	line-height: calc(16/14);
 	letter-spacing: 0.03em;
@@ -239,7 +239,7 @@ img {
 }
 
 
-.advences-list{
+.advences-list {
 	display: flex;
 	flex-direction: row;
 	gap: 30px;
@@ -267,27 +267,40 @@ img {
 }
 
 .working.title,
-.our-team-title.title{
+.our-team-title.title {
 	margin-bottom: 50px;
 }
 
-.working-list{
+.working-list {
 	display: flex;
 	gap: 30px;
 	margin-bottom: 94px;
 }
 
-.our-team-title{
+.our-team-title {
 	padding-top: 94px;
 }
 
-.team-members{
+.team-members {
 	display: flex;
 	flex-direction: row;
 	gap: 30px;
+	padding-bottom: 94px;
+}
+
+.member {
+	background-color: #fff;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 0px 0px 4px 4px;
+}
+
+.member>img{
+	margin-bottom: 30px;
 }
 
 .members-subtitle {
+	margin-bottom: 10px;
+
 	font-weight: 500;
 	font-size: 16px;
 	line-height: calc(19/16);
@@ -296,6 +309,8 @@ img {
 }
 
 .members-position {
+	margin-bottom: 30px;
+
 	font-size: 16px;
 	line-height: calc(19/16);
 	text-align: center;
