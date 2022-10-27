@@ -266,6 +266,27 @@ img {
 	letter-spacing: 0.03em;
 }
 
+.working.title,
+.our-team-title.title{
+	margin-bottom: 50px;
+}
+
+.working-list{
+	display: flex;
+	gap: 30px;
+	margin-bottom: 94px;
+}
+
+.our-team-title{
+	padding-top: 94px;
+}
+
+.team-members{
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+}
+
 .members-subtitle {
 	font-weight: 500;
 	font-size: 16px;
