@@ -79,9 +79,9 @@ img {
 .invisible {
 	visibility: hidden;
 	position: absolute;
-	width: 1px;
-	height: 1px;
-	margin: -1px;
+	width: 0px;
+	height: 0px;
+	margin: 0px;
 	border: 0;
 	padding: 0;
 }
@@ -178,6 +178,7 @@ img {
 .hero>.container {
 	padding-top: 200px;
 	padding-bottom: 200px;
+	margin-bottom: 94px;
 }
 
 .hero-title {
@@ -229,11 +230,21 @@ img {
 /* -----------------------------main----------------------------- */
 
 .advences.subtitle {
-
+	margin-bottom: 8px;
+	
 
 	line-height: calc(16/14);
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
+}
+
+
+.advences-list{
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+
+	margin-bottom: 94px;
 }
 
 .advences-list-item-p {
