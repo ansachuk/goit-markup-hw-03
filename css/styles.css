@@ -323,12 +323,27 @@ img {
 	color: var(--header-color);
 }
 
+.footer-logo{
+	display: inline-block;
+	padding-top: 60px;
+	margin-right: 0;
+	margin-bottom: 20px;
+}
+
+.address-list{
+	display: inline-block;
+	margin-bottom: 60px;
+}
+
 
 .address-list-item {
 	font-style: normal;
 	line-height: calc(24/14);
 	letter-spacing: 0.03em;
+}
 
+.address-list-item:not(:last-child){
+	margin-bottom: 9px;
 }
 
 .adress-connect.link {
