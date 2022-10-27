@@ -1,7 +1,8 @@
-html{
+html {
 	box-sizing: border-box;
 }
-*{
+
+* {
 	box-sizing: inherit;
 }
 
@@ -52,7 +53,7 @@ img {
 
 /* reset end */
 
-.container{
+.container {
 	width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
@@ -86,10 +87,20 @@ img {
 }
 
 
-/* Хедер */
+/* -----------------------Хедер------------------------ */
 .header {
 	background-color: var(--header-color);
+	border-bottom: 1px solid #ECECEC;
 }
+
+.header-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
 
 .logo {
 	color: #000000;
@@ -98,6 +109,8 @@ img {
 	font-size: 26px;
 	line-height: calc(31/26);
 	letter-spacing: 0.03em;
+
+	margin-right: 93px;
 }
 
 .logo-name-web {
@@ -109,7 +122,22 @@ img {
 }
 
 /* ___________________nav__________________ */
+
+.nav {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.nav-list{
+		display: flex;
+		flex-direction: row;
+		gap: 50px;
+		margin: 32px 0;
+}
+
 .nav-list a {
+
 	color: var(--font-submain-color);
 	font-weight: 500;
 	line-height: calc(16/14);
@@ -122,6 +150,13 @@ img {
 }
 
 /* ____________contacts____________ */
+
+.contacts-list{
+	display: flex;
+	flex-direction: row;
+	gap: 50px;
+}
+
 .contacts-list a {
 	color: var(--font-main-color);
 	font-weight: 500;
@@ -140,7 +175,7 @@ img {
 	background-color: var(--footer-color);
 }
 
-.hero>.container{
+.hero>.container {
 	padding-top: 200px;
 	padding-bottom: 200px;
 }
