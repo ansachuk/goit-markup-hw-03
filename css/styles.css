@@ -77,6 +77,12 @@ img {
 	padding: 0;
 }
 
+.section{
+	padding-bottom: 94px;
+	
+	}
+
+
 
 /* -----------------------Хедер------------------------ */
 .header {
@@ -169,7 +175,7 @@ img {
 .hero>.container {
 	padding-top: 200px;
 	padding-bottom: 200px;
-	margin-bottom: 94px;
+	
 }
 
 .hero-title {
@@ -220,6 +226,10 @@ img {
 
 /* -----------------------------main----------------------------- */
 
+.advences{
+	padding-top: 94px;
+}
+
 .advences.subtitle {
 	margin-bottom: 8px;
 
@@ -235,7 +245,6 @@ img {
 	flex-direction: row;
 	gap: 30px;
 
-	margin-bottom: 94px;
 }
 
 .advences-list-item-p {
@@ -265,7 +274,6 @@ img {
 .working-list {
 	display: flex;
 	gap: 30px;
-	margin-bottom: 94px;
 }
 
 .our-team-title {
@@ -276,7 +284,6 @@ img {
 	display: flex;
 	flex-direction: row;
 	gap: 30px;
-	padding-bottom: 94px;
 }
 
 .member {
