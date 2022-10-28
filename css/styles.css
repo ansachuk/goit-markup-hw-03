@@ -15,6 +15,10 @@ html {
 	--font-main-color: #757575;
 	--font-submain-color: #212121;
 	--button-passive-color: #f5f4fa;
+
+	/* Others */
+	--indent:30px;
+	--items:3;
 }
 
 /*________________________ Глобальні стилі __________________*/
@@ -346,11 +350,21 @@ img {
 	padding-top: 94px;
 }
 
+.main.main-portfolio{
+	background-color: F5F5F5;
+}
+
 .filter-list.list{
 	display: flex;
 	justify-content: center;
 	gap: 8px;
 	padding-bottom: 50px;
+	border-radius:4px;
+}
+
+.item-button.usi{
+	padding-left: 25px;
+	padding-right: 25px;
 }
 
 button {
@@ -368,6 +382,8 @@ button {
 	text-align: center;
 	letter-spacing: 0.03em;
 	border-style: none;
+
+	padding: 6px 22px;
 }
 
 .item-button:hover,
@@ -376,6 +392,26 @@ button {
 	background-color: var(--action-color);
 	border-radius: 4%;
 }
+
+.examples-list.list{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	
+}
+
+.examples-list-item{
+	flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / (var(--items)));
+}
+
+
+
+.item-container{
+	padding:20px 24px ;
+	border: 1px solid #EEEEEE;
+	border-top: none;
+}
+
 
 .exp.subtitle {
 	font-size: 18px;
