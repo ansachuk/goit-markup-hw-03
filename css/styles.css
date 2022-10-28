@@ -77,17 +77,14 @@ img {
 	padding: 0;
 }
 
-.section{
+.section {
 	padding-bottom: 94px;
-	
-	}
-
-
+}
 
 /* -----------------------Хедер------------------------ */
 .header {
 	background-color: var(--header-color);
-	border-bottom: 1px solid #ECECEC;
+	border-bottom: 1px solid #ececec;
 }
 
 .header-container {
@@ -97,14 +94,12 @@ img {
 	align-items: center;
 }
 
-
-
 .logo {
 	color: #000000;
 	font-family: "Raleway";
 	font-weight: 700;
 	font-size: 26px;
-	line-height: calc(31/26);
+	line-height: calc(31 / 26);
 	letter-spacing: 0.03em;
 
 	margin-right: 93px;
@@ -134,10 +129,9 @@ img {
 }
 
 .nav-list a {
-
 	color: var(--font-submain-color);
 	font-weight: 500;
-	line-height: calc(16/14);
+	line-height: calc(16 / 14);
 	letter-spacing: 0.02em;
 }
 
@@ -157,7 +151,7 @@ img {
 .contacts-list a {
 	color: var(--font-main-color);
 	font-weight: 500;
-	line-height: calc(16/14);
+	line-height: calc(16 / 14);
 	letter-spacing: 0.02em;
 }
 
@@ -175,7 +169,6 @@ img {
 .hero>.container {
 	padding-top: 200px;
 	padding-bottom: 200px;
-	
 }
 
 .hero-title {
@@ -184,7 +177,7 @@ img {
 	color: var(--header-color);
 	font-weight: 900;
 	font-size: 44px;
-	line-height: calc(60/44);
+	line-height: calc(60 / 44);
 	text-align: center;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
@@ -207,7 +200,7 @@ img {
 	cursor: pointer;
 	font-weight: 700;
 	font-size: 16px;
-	line-height: calc(30/16);
+	line-height: calc(30 / 16);
 	display: flex;
 	align-items: center;
 	text-align: center;
@@ -223,45 +216,39 @@ img {
 	cursor: pointer;
 }
 
-
 /* -----------------------------main----------------------------- */
 
-.advences{
+.advences {
 	padding-top: 94px;
 }
 
 .advences.subtitle {
 	margin-bottom: 8px;
 
-
-	line-height: calc(16/14);
+	line-height: calc(16 / 14);
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 }
-
 
 .advences-list {
 	display: flex;
 	flex-direction: row;
 	gap: 30px;
-
 }
 
 .advences-list-item-p {
-
-	line-height: calc(24/14);
+	line-height: calc(24 / 14);
 	letter-spacing: 0.03em;
 }
 
 .our-team {
-	background-color: var(--button-passive-color)
+	background-color: var(--button-passive-color);
 }
 
 .working.title,
 .our-team-title {
-
 	font-size: 36px;
-	line-height: calc(42/36);
+	line-height: calc(42 / 36);
 	text-align: center;
 	letter-spacing: 0.03em;
 }
@@ -292,7 +279,7 @@ img {
 	border-radius: 0px 0px 4px 4px;
 }
 
-.member>img{
+.member>img {
 	margin-bottom: 30px;
 }
 
@@ -301,7 +288,7 @@ img {
 
 	font-weight: 500;
 	font-size: 16px;
-	line-height: calc(19/16);
+	line-height: calc(19 / 16);
 	text-align: center;
 	letter-spacing: 0.03em;
 }
@@ -310,7 +297,7 @@ img {
 	margin-bottom: 30px;
 
 	font-size: 16px;
-	line-height: calc(19/16);
+	line-height: calc(19 / 16);
 	text-align: center;
 	letter-spacing: 0.03em;
 }
@@ -321,26 +308,25 @@ img {
 	color: var(--header-color);
 }
 
-.footer-logo{
+.footer-logo {
 	display: inline-block;
 	padding-top: 60px;
 	margin-right: 0;
 	margin-bottom: 20px;
 }
 
-.address-list{
+.address-list {
 	display: inline-block;
 	margin-bottom: 60px;
 }
 
-
 .address-list-item {
 	font-style: normal;
-	line-height: calc(24/14);
+	line-height: calc(24 / 14);
 	letter-spacing: 0.03em;
 }
 
-.address-list-item:not(:last-child){
+.address-list-item:not(:last-child) {
 	margin-bottom: 9px;
 }
 
@@ -356,6 +342,17 @@ img {
 
 /* portfolio */
 
+.main>.section{
+	padding-top: 94px;
+}
+
+.filter-list.list{
+	display: flex;
+	justify-content: center;
+	gap: 8px;
+	padding-bottom: 50px;
+}
+
 button {
 	font-family: inherit;
 }
@@ -367,7 +364,7 @@ button {
 	cursor: pointer;
 	font-weight: 500;
 	font-size: 16px;
-	line-height: calc(26/16);
+	line-height: calc(26 / 16);
 	text-align: center;
 	letter-spacing: 0.03em;
 	border-style: none;
@@ -381,14 +378,13 @@ button {
 }
 
 .exp.subtitle {
-
 	font-size: 18px;
-	line-height: calc(36/18);
+	line-height: calc(36 / 18);
 	letter-spacing: 0.06em;
 }
 
 .exp-p {
 	font-size: 16px;
-	line-height: calc(30/16);
+	line-height: calc(30 / 16);
 	letter-spacing: 0.03em;
 }
