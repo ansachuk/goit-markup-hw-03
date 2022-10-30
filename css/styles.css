@@ -305,14 +305,11 @@ img {
 
 .footer {
 	background-color: var(--footer-color);
+		padding: 60px 0;
 }
 
 .footer a {
 	color: var(--header-color);
-}
-
-.footer>.container{
-	padding: 60px 0;
 }
 
 .footer-logo {
@@ -410,7 +407,7 @@ button {
 	font-size: 18px;
 	line-height: calc(36 / 18);
 	letter-spacing: 0.06em;
-	margin: 4px;
+	margin-bottom: 4px;
 }
 
 .exp-p {
