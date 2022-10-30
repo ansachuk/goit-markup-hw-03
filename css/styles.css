@@ -167,12 +167,11 @@ img {
 /* Hero*/
 .hero{
 	padding: 200px 0;
-}
-
-.hero,
-.footer {
 	background-color: var(--footer-color);
 }
+
+
+
 
 .hero-title {
 	margin: 0 auto 30px auto;
@@ -304,6 +303,10 @@ img {
 
 /* ________________Футер______________ */
 
+.footer {
+	background-color: var(--footer-color);
+}
+
 .footer a {
 	color: var(--header-color);
 }
@@ -353,14 +356,9 @@ img {
 	display: flex;
 	justify-content: center;
 	gap: 8px;
-	padding-bottom: 50px;
-	border-radius:4px;
+	margin-bottom: 50px;
 }
 
-.item-button.usi{
-	padding-left: 25px;
-	padding-right: 25px;
-}
 
 button {
 	font-family: inherit;
@@ -412,6 +410,7 @@ button {
 	font-size: 18px;
 	line-height: calc(36 / 18);
 	letter-spacing: 0.06em;
+	margin: 4px;
 }
 
 .exp-p {
